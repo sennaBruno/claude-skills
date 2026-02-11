@@ -7,6 +7,7 @@ A collection of reusable skills for [Claude Code](https://claude.ai/code) and co
 | Skill | Description |
 |-------|-------------|
 | [estimating-agent-tasks](skills/estimating-agent-tasks/) | ACR (Agent Complexity Rating) framework — replaces story points for AI-agent-assisted development. Estimates time, cost, model selection, and token budget per task. |
+| [video-to-context](skills/video-to-context/) | Extract full context from screen recordings (speech transcript via Whisper GPU + key frames via ffmpeg) into a markdown document AI agents can read directly. |
 
 ## Installation
 
@@ -37,6 +38,7 @@ cp -r skills/estimating-agent-tasks .claude/skills/
 Skills are automatically loaded by Claude when relevant. You can also invoke them directly:
 
 - **estimating-agent-tasks**: Mention estimation, story points, sprint planning, task sizing, or token budgeting in your prompt.
+- **video-to-context**: Share a screen recording, demo video, or bug reproduction video and ask Claude to analyze it.
 
 ## Contributing
 

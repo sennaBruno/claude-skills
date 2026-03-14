@@ -16,6 +16,7 @@ A collection of reusable skills for [Claude Code](https://claude.ai/code) and co
 | [obsidian-emerge](skills/obsidian-emerge/) | Discover hidden ideas, implicit patterns, unfinished thoughts, or emergent insights from recent notes and vault activity. |
 | [obsidian-review](skills/obsidian-review/) | Review the current state of a specific project, check progress, identify blockers, or get a status summary with next steps. |
 | [obsidian-today](skills/obsidian-today/) | Plan your day, get a daily briefing, review pending tasks across projects, or decide what to work on today. |
+| [validate-claude-code-setup](skills/validate-claude-code-setup/) | Audit and re-validate Claude Code configuration (model, context window, autocompact threshold, effort level) against current best practices. Research-first approach with decision tables and symptom-based diagnostics. |
 
 ## Community / Backup
 
@@ -62,6 +63,7 @@ Skills are automatically loaded by Claude when relevant. You can also invoke the
 - **obsidian-second-brain**: Ask to set up or audit an Obsidian vault with PARA methodology.
 - **evolution-api-management**: Mention deploying, connecting, or troubleshooting WhatsApp via Evolution API.
 - **obsidian-capture/connect/emerge/review/today**: Use for daily Obsidian workflows — capturing, connecting ideas, reviewing projects, and planning.
+- **validate-claude-code-setup**: Say "valida meu setup do Claude Code" or invoke directly to audit model, context window, autocompact threshold, and effort level.
 
 ## Contributing
 
